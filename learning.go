@@ -43,7 +43,7 @@ func main(){
     c.OnHTML(".contents", func(e *colly.HTMLElement) {
         // Extract company details
         urlEndpoint := e.Request.URL.String()
-        if urlEndpoint == "https://infopark.in/companies/job-search"{
+        if urlEndpoint == "https://xyz.in/companies/job-search"{
             return
         }
         var currentCompany company
